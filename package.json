@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "Launcher des copains",
+    "preductname": "Launcher des copains",
+    "version": "1.0.0",
+    "description": "Launcher Mincraft pour le serveur Test",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
-        "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "name": "Sweizeur, luuxis, Inc.",
+        "email": "contact@sweizeur.fr",
+        "url": "https://github.com/sweizeur"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "http://sweizeur.fr:3000",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://media.forgecdn.net/avatars/thumbnails/477/194/256/256/637771671789296797.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Sweizeur/Test-Launcher.git"
     }
 }
