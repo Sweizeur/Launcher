@@ -1,8 +1,8 @@
 {
-    "name": "Launcher-des-copains",
-    "preductname": "Launcher-des-copains",
+    "name": "Survie-a-l'ancienne",
+    "preductname": "Survie-a-l'ancienne",
     "version": "1.0.4",
-    "description": "Launcher Mincraft pour le serveur Test",
+    "description": "Launcher Mincraft pour le serveur Survie-a-l'ancienne",
     "main": "src/app.js",
     "author": {
         "name": "Sweizeur, luuxis, Inc.",
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Sweizeur/Test-Launcher.git"
+        "url": "git+https://github.com/Sweizeur/Launcher.git"
     }
 }
